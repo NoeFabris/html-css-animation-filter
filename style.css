@@ -47,6 +47,12 @@
     height: 60px;
     background: red;
 }
+.ex-5-square:hover{
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+    transition: all 3s;
+}
 
 /* Es.6 */
 .ex-6-img, .ex-7-img, .ex-8-img {
