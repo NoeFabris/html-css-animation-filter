@@ -136,7 +136,6 @@
     }
 }
 
-/* Es.12 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -157,6 +156,7 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+    transition: all 3s;
 }
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
@@ -166,3 +166,41 @@
     width: 60px;
     height: 20px;
 }
+
+/* Es.12 */
+.ex-12-button:hover .ex-12-top-white{
+    animation-name: ex-12-top;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation-name: ex-12-bottom;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+@keyframes ex-12-top {
+    0%{
+        left: 10%; 
+    }
+    50%{
+        left: 69%;
+    }
+    100%{
+        left: 10%;
+    }
+}
+@keyframes ex-12-bottom {
+    0%{
+        right: 20%; 
+    }
+    50%{
+        right: 70%;
+    }
+    100%{
+        right: 20%;
+    }
+}
+
+/* Es.13 */
