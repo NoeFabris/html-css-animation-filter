@@ -54,9 +54,12 @@
     transition: all 3s;
 }
 
-/* Es.6 */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+}
+/* Es.6 */
+.ex-6-img:hover{
+    filter: grayscale(100%);
 }
 
 /* Es.7 */
