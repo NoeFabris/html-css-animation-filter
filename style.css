@@ -97,6 +97,21 @@
 /* Es.10 */
 .ex-10-icon {
     font-size: 60px;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin{
+    0%{
+    transform: rotate(360deg);
+    }
+    /* 50%{
+    transform: rotate(180deg);
+    } */
+    100%{
+    transform: rotate(0deg);
+    }
 }
 
 /* Es.11 */
