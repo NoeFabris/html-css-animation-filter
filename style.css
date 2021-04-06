@@ -84,6 +84,14 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 3s;
+}
+.ex-9-img:hover{
+    filter: sepia(50%);
+    filter: grayscale(50%);
+    border-radius: 10px;
+    margin: 0;
+    width: 50%;
 }
 
 /* Es.10 */
