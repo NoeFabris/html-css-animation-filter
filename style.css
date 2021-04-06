@@ -27,13 +27,17 @@
 }
 .ex-3-square:hover{
     border-radius: 50%;
-    transition: all 1000ms;
+    transition: all 3s;
 }
 /* Es.4 */
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+}
+.ex-4-square:hover{
+    opacity: 0;
+    transition: all 3s;
 }
 
 /* Es.5 */
