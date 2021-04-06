@@ -64,13 +64,21 @@
 
 /* Es.7 */
 .ex-7-img{
-    transition: all 3s ease-out;
+    transition: all 3s;
 }
 .ex-7-img:hover{
     filter: sepia(100%);
 }
 
 /* Es.8 */
+.ex-8-img{
+    transition: all 3s;
+}
+.ex-8-img:hover{
+    filter: sepia(50%);
+    filter: grayscale(50%);
+    border-radius: 10px;
+}
 
 /* Es.9 */
 .ex-9-img {
