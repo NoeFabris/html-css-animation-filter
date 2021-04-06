@@ -9,44 +9,64 @@
     transition: all 3s;
 }
 
-
-
-
+/* Es.2 */
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+.ex-2-square:active{
+    width: 100%;
+    transition: all 3s;
+}
+/* Es.3 */
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* Es.4 */
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* Es.5 */
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
 }
+
+/* Es.6 */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
 
+/* Es.7 */
+
+/* Es.8 */
+
+/* Es.9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+/* Es.10 */
 .ex-10-icon {
     font-size: 60px;
 }
+
+/* Es.11 */
 .ex-11-icon {
     font-size: 60px;
 }
+
+/* Es.12 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
